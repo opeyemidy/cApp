@@ -1,9 +1,17 @@
+
+.emoji {
+
+    --background: #fff url('../../assets/thumbsup.png') no-repeat center center / cover;
+}
+
 .cover {
 
     --background: #fff url('../../assets/cover.jpg') no-repeat center center / cover;
 }
 
-h2 {
+
+.red-square {
+
     vertical-align: middle !important;
     text-align: center;
     width: 60%;
@@ -12,6 +20,9 @@ h2 {
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
+}
+
+h2 {
     font-size: 30px;
     color: #fff;
     padding: 10px;
@@ -21,6 +32,15 @@ h2 {
     background: -o-linear-gradient(45deg, rgba(46,74,128,1) 1%, rgba(46,74,128,1) 15%, rgba(35,25,128,1) 52%, rgba(34,19,128,1) 57%, rgba(46,74,128,1) 87%, rgba(46,74,128,1) 100%); /* opera 11.10+ */
     background: -ms-linear-gradient(45deg, rgba(46,74,128,1) 1%, rgba(46,74,128,1) 15%, rgba(35,25,128,1) 52%, rgba(34,19,128,1) 57%, rgba(46,74,128,1) 87%, rgba(46,74,128,1) 100%); /* ie10+ */
     background: linear-gradient(45deg, rgba(46,74,128,1) 1%, rgba(46,74,128,1) 15%, rgba(35,25,128,1) 52%, rgba(34,19,128,1) 57%, rgba(46,74,128,1) 87%, rgba(46,74,128,1) 100%); /* w3c */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E4A80', endColorstr='#2E4A80',GradientType=1 ); /* ie6-9 */ 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E4A80', endColorstr='#2E4A80',GradientType=1 ); /* ie6-9 */
     border-radius: 10px;
+}
+
+ion-icon {
+    display: inline-block;
+    margin-right: 30%;
+}
+
+ion-title {
+    display: inline-block;
 }
